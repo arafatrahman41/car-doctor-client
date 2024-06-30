@@ -20,7 +20,7 @@ const CheckOut = () => {
       service: title,
       service_id: _id,
       price: price,
-    };
+    }; 
     console.log(booking);
     fetch("http://localhost:5000/bookings", {
       method: "POST",
